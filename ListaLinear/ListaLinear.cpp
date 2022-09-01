@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <list>
 #include <iterator>
@@ -14,9 +13,6 @@ void inserirElemento();
 void buscarElemento();
 void excluiElemento();
 int verificaSeExiste(int num);
-// --------------------------
-
-// Teste
 
 const int MAX = 5;
 int lista[MAX]{};
@@ -179,4 +175,3 @@ void buscarElemento()
 	}
 	if (!existe)
 		cout << "\n\nValor " << opcaoEscolhida << " nao existe na lista\n\n";
-}
