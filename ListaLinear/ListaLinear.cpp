@@ -18,7 +18,7 @@ const int MAX = 5;
 int lista[MAX]{};
 int nElementos = 0;
 int opcaoEscolhida;
-
+//alteração
 int main()
 {
 	menu();
